@@ -1,0 +1,386 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Teko;
+	list-style-type: none;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	height: 130px;
+	align-items: center;
+}
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 200px;
+}
+.headerLogo{
+	background-image: url(images/logo.png);
+	width: 29px;
+	height: 45px;
+}
+.headerText{
+	font-size: 38px;
+	font-weight: 300;
+	margin-left: 15px;
+	color: #787878;
+	letter-spacing: 0.05em;
+
+}
+.headerNav{
+	font-size: 80px;
+	color: #787878;
+	margin-left: 200px;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	background: #262626;
+	color: #bfbfbf;
+}
+.main h1{
+	font-size: 90px;
+	letter-spacing: 0.05em;
+	margin-top: 250px;
+}
+.main h3{
+	font-size: 42px;
+	letter-spacing: 0.04em;
+	margin-top: -25px;
+}
+.mainScroll{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 180px;
+}
+.mainScroll div:nth-child(1){
+	font-size: 28px;
+	cursor: pointer;
+}
+.mainScroll div:nth-child(2){
+	font: 16px Yantramanav;
+	cursor: pointer; 
+}
+.titleText{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 70px;
+}
+.titleText h1{
+	font-size: 64px;
+	letter-spacing: 0.04em;
+}
+.titleText h1:after{
+	display: block;
+    width: 85%;
+    content: '';
+    border-bottom: 3px solid #eb7500;
+    position: relative;
+    top: -15px;
+    margin: auto;
+}
+.titleText h3{
+	font: 18px Yantramanav;
+	font-weight: 100;
+	width: 700px;
+	text-align: center;
+	margin-top: 20px;
+}
+.aboutFirst{
+	height: 580px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.aboutBlocks{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.blockOne, .blockTwo, .blockThree{
+	font-size: 60px;
+	color: #eb7500;
+	width: 330px;
+	background: #dedede;
+	display: flex;
+	margin: 15px;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+}
+.blockOne div:nth-child(1), .blockTwo div:nth-child(1), .blockThree div:nth-child(1){
+	margin-top: 10px;
+}
+.oneMainText, .twoMainText, .threeMainText{
+	font-size: 26px;
+	color: #575757;
+}
+.blockOne h3, .blockTwo h3, .blockThree h3{
+	font: 18px Yantramanav;
+	font-weight: 100;
+	color: #000;
+	padding: 0 20px;
+	text-align: center;
+}
+.aboutSecond{
+	display: flex;
+}
+.aboutTextVideo{
+	background-color: #262626;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	margin-bottom: 8px;
+}
+.titleVideoText{
+	font: 30px Yantramanav;
+	color: #f0f0f0;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+}
+.videoText{
+	margin: 10px 0 45px 0;
+	font: 17px Yantramanav;
+	color: #6e6e6e;
+	font-weight: 100;
+	width: 500px;
+	text-align: center;
+	line-height: 1.2;
+}
+.videoButton{
+	font: 18px Yantramanav;
+	cursor: pointer;
+	background: #f00;
+	padding: 10px 30px;
+	color: #fff;
+}
+.worksNav ul{
+	display: flex;
+	justify-content: center;
+	margin: 75px 0 50px 0;
+}
+.worksNav ul li{
+	width: 150px;
+	border-bottom: 1px solid transparent;
+	font: 20px Yantramanav;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	text-align: center;
+}
+.worksNav ul li:nth-child(1){
+	font-weight: 700;
+}
+
+.worksNav ul li:hover{
+    border-bottom: 1px solid #eb7500;
+}
+.worksGallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 20px;	
+}
+.worksGallery img{
+	margin: 6px 10px 6px 10px;
+}
+.worksFooter{
+	height: 230px;
+	background: #262626;
+	display: flex;
+	justify-content: center;
+	margin-top: 75px;
+
+}
+.worksFooter ul{
+	display: flex;
+	justify-content: center; 
+}
+.worksFooter ul li{
+	width: 270px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 42px Yantramanav;
+	color: #fff;
+	font-weight: 300;
+	letter-spacing: -0.02em;
+}
+.worksFooter ul li img{
+	margin: 10px;
+}
+.worksFooter ul li:nth-child(1),
+.worksFooter ul li:nth-child(5){
+	width: 200px;
+	font: 48px Yantramanav;
+}
+.whoContent{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.whoPerson{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #dbdbdb;
+	width: 320px;
+	height: 430px;
+}
+.personPhoto{
+	background: #eb7500;
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+.personName{
+	font: 26px Yantramanav;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	margin-top: 20px;
+}
+.personProfession{
+	font: 20px Yantramanav;
+	font-weight: 500;
+	letter-spacing: -0.02;
+	margin: -5px 0 20px 0;
+}
+.personButton{
+	display: flex;
+	width: 70px;
+	justify-content: space-around;
+	margin-top: 25px;
+}
+.personButton div:nth-child(1){
+	background: #919191;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+.personButton div:nth-child(2),
+.personButton div:nth-child(3){
+	background: #fff;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+.whoSkill{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #dbdbdb;
+	width: 660px;
+	height: 430px;
+	margin-left: 30px;
+}
+.skillText{
+	font: 28px Yantramanav;
+	font-weight: 600;
+	margin-right: 400px;
+	margin-top: 80px;
+}
+.skillLorem{
+	font: 16px Yantramanav;
+	font-weight: 100;
+	padding: 20px 65px;
+
+}
+.skillS{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 120px;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.photoshop, .illustrator, .sketch, .afterEffects{
+	display: flex;
+}
+.photoshop div:nth-child(2){
+	background: linear-gradient(to right, #eb7500 88%, #fff 88%);
+	width: 360px;
+	height: 2px;
+	margin: 9px 0 0 40px;
+}
+.illustrator div:nth-child(2){
+	background: linear-gradient(to right, #eb7500 92%, #fff 92%);
+	width: 360px;
+	height: 2px;
+	margin: 9px 0 0 35px;
+}
+.sketch div:nth-child(2){
+	background: linear-gradient(to right, #eb7500 90%, #fff 90%);
+	width: 360px;
+	height: 2px;
+	margin: 9px 0 0 74px;
+}
+.afterEffects div:nth-child(2){
+	background: linear-gradient(to right, #eb7500 98%, #fff 98%);
+	width: 360px;
+	height: 2px;
+	margin: 9px 0 0 22px;
+}
+.photoshop div, .illustrator div,
+.sketch div, .afterEffects div{
+	font: 16px Yantramanav;
+	font-weight: 600;
+}
+.photoshop div:nth-child(3),
+.illustrator div:nth-child(3),
+.sketch div:nth-schild(3),
+.afterEffects div:nth-child(3){
+	margin-left: 10px;
+	font-weight: 100;
+	font-size: 16px;
+}
+footer{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	background: #262626;
+	height: 230px;
+	justify-content: center;
+	align-items: center;
+}
+.footerImg{
+	background-image: url(images/logo.png);
+	width: 29px;
+	height: 45px;
+}
+.footerTitle{
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+}
+.footerText{
+	font: 20px Yantramanav;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}
+.footerContact{
+	font: 20px Yantramanav;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+}
+
+
+
+
+
+
+
